@@ -132,4 +132,8 @@ names(stepsByDay) <- c("interval", "daylevel", "steps")
 ```{r echo=TRUE}
 xyplot(steps ~ interval | daylevel, stepsByDay, type = "l", layout = c(1, 2), 
     xlab = "Interval", ylab = "Number of steps")
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 6deced199828e778bfd62650308109829efaed54
